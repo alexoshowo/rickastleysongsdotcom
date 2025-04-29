@@ -9,9 +9,9 @@ main{
     margin-right: auto;
     margin-top:24px;
     margin-left: auto;
-    width: 960px;
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 article{
     display: flex;
@@ -43,7 +43,18 @@ p{
     font-size: 16pt;
 }
 img{
-    width: fit-content;
-    padding-right: 16px;
-    padding-left: 16px;
+    height: 350px;
+    display: block;
+}
+footer{
+    width: 100%;
+    margin-right: auto;
+    margin-top:24px;
+    margin-left: auto;
+    text-align: center
+}
+a{
+    font-size: 1.8em;
+    text-decoration: none;
+    padding: 16px;
 }
