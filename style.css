@@ -54,7 +54,12 @@ footer{
     text-align: center
 }
 a{
-    font-size: 1.8em;
+    font-size: 1.8em !important;
+    font-weight: 400;
     text-decoration: none;
     padding: 16px;
+}
+.rickroll{
+    color: black;
+    cursor: default;
 }
